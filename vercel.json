@@ -1,9 +1,6 @@
 {
   "version": 2,
   "framework": "nextjs",
-  "buildCommand": "cd second-souffle && npm install && npm run build",
-  "outputDirectory": "second-souffle/.next",
-  "env": {
-    "NEXT_PUBLIC_BASE_URL": "https://second-souffle.vercel.app"
-  }
-}
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": ".next"
+} 
